@@ -34,8 +34,17 @@ namespace PackVideo
 Рядом с программой должен быть ffmpeg.exe.
 "
             + Environment.NewLine + $"Параметры для сжатия: {converter.FfmpegArguments}"
-            + Environment.NewLine + $"Параметры для сжатия с уменьшением размера: {converter.FfmpegArgumentsResize}";
+            + Environment.NewLine + $"Параметры для сжатия с уменьшением размера: {converter.FfmpegArgumentsResize}"
+            + @"
 
+
+Copyright 2018-2019 Ivanov Vasilii Sergeevich aka Aant
+Licensed under the LGPLv2.1
+https://github.com/AantCoder/PackVideo
+
+Components used:
+* FFmpeg (LGPLv2.1 license) https://ffmpeg.org/
+";
         }
 
         private void UpdateStatus(bool showError)

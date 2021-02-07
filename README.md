@@ -8,6 +8,7 @@
 Рядом с программой должен быть ffmpeg.exe.
 
 Параметры для сжатия: -vcodec h264 -crf 22 -acodec aac
+
 Параметры для сжатия с уменьшением размера: -filter:v scale="iw/2:ih/2" -vcodec h264 -crf 22 -acodec aac
 
 # License

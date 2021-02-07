@@ -38,7 +38,7 @@ namespace PackVideo
             + @"
 
 
-Copyright 2018-2019 Ivanov Vasilii Sergeevich aka Aant
+Copyright 2021 Ivanov Vasilii Sergeevich aka Aant
 Licensed under the LGPLv2.1
 https://github.com/AantCoder/PackVideo
 
